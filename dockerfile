@@ -8,7 +8,7 @@ FROM debian:jessie
 
 RUN \
   apt-get update && \
-  apt-get install -y ruby ruby-dev ruby-bundler && \
+  apt-get install -y ruby ruby-dev bundler && \
   rm -rf /var/lib/apt/lists/*
 
 #Define working directory
