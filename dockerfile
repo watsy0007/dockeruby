@@ -2,7 +2,7 @@
 # Ruby Dockerfile
 #
 # Pull base image.
-FROM debian
+FROM debian:jessie
 
 #Install Ruby.
 
